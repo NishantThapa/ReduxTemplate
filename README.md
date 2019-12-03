@@ -13,11 +13,17 @@ The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
 Basis React Redux Template With Following :
-Constat 
+
+Constant 
+
 Actions
+
 Reducers
+
 Store
+
 MapStateToprops
+
 MapDispatchToprops
 
 
