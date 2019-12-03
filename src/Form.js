@@ -27,10 +27,13 @@ const mapStateToProps = (state) => {
 }
 
 
-export default connect(mapStateToProps,
-    {
-        Activate,
-        Deactivate,
-        On,
-        Off
-    })(Form)
+const mapDispatchToProps = {
+    Activate,
+    Deactivate,
+    On,
+    Off
+}
+
+
+
+export default connect(mapStateToProps,mapDispatchToProps)(Form)
